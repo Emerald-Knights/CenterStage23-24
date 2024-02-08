@@ -26,7 +26,7 @@ public class BlueBottom extends AutonBase {
         waitForStart();
 
         SpikePipeline.SpikePositionsBlue pos = SpikePipeline.spikePositionB;
-
+//:)
         //close opencv and open apriltags
         robot.openCV.stop();
 
