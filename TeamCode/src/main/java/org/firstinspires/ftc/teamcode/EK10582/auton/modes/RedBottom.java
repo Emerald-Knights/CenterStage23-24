@@ -43,7 +43,7 @@ public class RedBottom extends AutonBase {
             case LEFT:
                 traj_pushPixel = robot.roadRunner.trajectorySequenceBuilder(startPos)
                         .lineToLinearHeading(new Pose2d(-47,-30, Math.toRadians(-90)))
-                        .forward(4)
+                        .back(4)
                         .strafeLeft(8)
                         .build();
                 traj_toBackboard = robot.roadRunner.trajectorySequenceBuilder(traj_pushPixel.end())
@@ -61,7 +61,7 @@ public class RedBottom extends AutonBase {
                 break;
             case RIGHT:
                 traj_pushPixel = robot.roadRunner.trajectorySequenceBuilder(startPos)
-                        .lineToLinearHeading(new Pose2d(-24,-30, Math.toRadians(-90)))
+                        .splineToLinearHeading(new Pose2d(20, -30, Math.toRadians(-90)), Math.toRadians(0))
                         .forward(4)
                         .strafeRight(8)
                         .build();
