@@ -1,5 +1,6 @@
 # Fancy Code Base Documentation
 
+![alt text](https://images-ext-1.discordapp.net/external/ZDmSCC4ph744nzKZghkdjBnECEv0mcm1SGylW7qg3mo/https/i.postimg.cc/KxqsdcJt/EKCode-Structure-Flow-Chart.png?format=webp&quality=lossless&width=1483&height=834)
 ## Folders
 1. ### EK10582
       1. #### auton
